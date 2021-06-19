@@ -3,7 +3,8 @@ find the nth root of a number in C.
 
 This program will find the indexed root of the radicand to a decimal precision of four.
 
-Depends on stdlib, errno, and math libraries
+Depends on stdlib, errno, and math libraries.
+
 Compile with -lm flag to link libm:
 
 cc -o nthroot nthroot.c -lm
