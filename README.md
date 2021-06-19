@@ -1,5 +1,5 @@
 # nthroot
-find the nth root of a number in C.
+find the nth (index) root of a number (radicand) in C.
 
 This program will find the indexed root of the radicand to a decimal precision of four.
 
