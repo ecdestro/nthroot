@@ -9,6 +9,6 @@ Compile with -lm flag to link libm:
 
 cc -o nthroot nthroot.c -lm
 
-./nthroot <radicand> <index>
+./nthroot radicand index
 
 Needs exactly two positive real number arguments for the radicand (the number under the radix) and the index (the number in the upper left corner of the radix)
