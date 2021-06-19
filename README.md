@@ -21,6 +21,6 @@ Suppose that the natural logarithm of the nth root of x is equal to the natural 
 
 ln <sup>n</sup>&radic;x = ln(x)/n
 
-You can then approximate the nth root of x with e to the result of the log of x all over n:
+You can then approximate the nth root of x with e (the natural constant, approx. 2.71828) to the result of the log of x all over n:
 
 e<sup>ln(x)/n</sup> &asymp; <sup>n</sup>&radic;x
