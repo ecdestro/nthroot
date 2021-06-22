@@ -15,6 +15,6 @@ void main(int argc, char *argv[]) {	/* Take in two command-line arguments: the r
 		radicand = atof(argv[1]);	/* From stdlib, convert the ascii value of the first argument (not the program name) into a float, and save it in radicand */
 		index = atof(argv[2]);		/* From stdlib, convert the ascii value of the second argument into a float and save it in index */
 		printf("%.4lf root of %.4lf is %.4lf\n", index, radicand, exp(log(radicand)/index));	/* Print with a declimal precision of four decimal points the values of the index, the radicand, and the root */
-		exit(EXIT_SUCCESS);	/* Exit the program successfull */
+		exit(EXIT_SUCCESS);	/* Exit the program successfully */
 	}
 }
