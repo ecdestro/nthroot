@@ -1,7 +1,5 @@
 # nthroot
-find the nth (index) root of a number (radicand) in C.
-
-This program will find the indexed root of the radicand to a decimal precision of four.
+find the nth root of a number to five decimal places.
 
 Depends on stdlib, errno, and math libraries.
 
@@ -11,7 +9,7 @@ cc -o nthroot nthroot.c -lm
 
 ./nthroot radicand index
 
-Needs exactly two positive real number arguments for the radicand (the number under the radix) and the index (the number in the upper left corner of the radix)
+Needs exactly two positive real number arguments for the radicand (the number under the radical) and the index (the number in the upper left corner of the radical)
 
 # The Maths
 
