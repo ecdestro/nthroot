@@ -4,11 +4,11 @@ find the nth root of a number to five decimal places.
 Depends on stdlib, errno, and math libraries.
 
 Compile with -lm flag to link libm:
-
+```bash
 cc -o nthroot nthroot.c -lm
 
 ./nthroot radicand index
-
+```
 Needs exactly two positive real number arguments for the radicand (the number under the radical) and the index (the number in the upper left corner of the radical)
 
 # The Maths
