@@ -4,7 +4,7 @@ find the nth root of a number to five decimal places.
 Depends on stdlib, errno, and math libraries.
 
 Compile with -lm flag to link libm:
-```bash
+```shell
 cc -o nthroot nthroot.c -lm
 
 ./nthroot radicand index
