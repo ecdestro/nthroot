@@ -11,14 +11,14 @@ cc -o nthroot nthroot.c -lm
 ```
 Needs exactly two positive real number arguments for the radicand (the number under the radical) and the index (the number in the upper left corner of the radical)
 
-Python version built for Python3
+Python version built for Python3. Uses x<sup>(1.0/n)</sup> to calculate the nth root
 ```
 python nthroot.py radicand index
 ```
 
 # The Maths
 
-This program approximates the nth root of a given number by way of natural logarithms.
+This C program approximates the nth root of a given number by way of natural logarithms.
 
 Suppose that the natural logarithm of the nth root of x is equal to the natural log of x all over n:
 
