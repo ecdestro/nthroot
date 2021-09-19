@@ -15,15 +15,3 @@ Python version built for Python3. Uses x<sup>(1.0/n)</sup> to calculate the nth 
 ```
 python nthroot.py radicand index
 ```
-
-# The Maths
-
-This C program approximates the nth root of a given number by way of natural logarithms.
-
-Suppose that the natural logarithm of the nth root of x is equal to the natural log of x all over n:
-
-ln <sup>n</sup>&radic;x = ln(x)/n
-
-You can then approximate the nth root of x with e (the natural constant, approx. 2.71828) to the result of the log of x all over n:
-
-e<sup>ln(x)/n</sup> &asymp; <sup>n</sup>&radic;x
