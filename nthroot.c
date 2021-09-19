@@ -1,10 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <errno.h>
-#include <math.h>	/* Provide exp() and log() functions */
+#include <math.h>  // Provides pow()
 
 void main(int argc, char *argv[]) {
-	double index, radicand;
+	double index, radicand, power;
 
 	if(argc != 3) {
 		errno = 1;
@@ -14,7 +14,8 @@ void main(int argc, char *argv[]) {
 	else {
 		radicand = atof(argv[1]);
 		index = atof(argv[2]);
-		printf("%.5lf root of %.5lf is %.5lf\n", index, radicand, exp(log(radicand)/index));	/* Print the index, the radicand, and the root (five dec places) */
+		power = (radicand, (1.0/index));
+		printf("%.5lf root of %.5lf is %.5lf\n", index, radicand, power);	/* Print the index, the radicand, and the root (five dec places) */
 		exit(EXIT_SUCCESS);
 	}
 }
