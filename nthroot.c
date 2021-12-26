@@ -14,7 +14,7 @@ void main(int argc, char *argv[]) {
 	else {
 		radicand = atof(argv[1]);
 		index = atof(argv[2]);
-		power = (radicand, (1.0/index));
+		power = pow(radicand, (1.0/index));
 		printf("%.5lf root of %.5lf is %.5lf\n", index, radicand, power);	/* Print the index, the radicand, and the root (five dec places) */
 		exit(EXIT_SUCCESS);
 	}
